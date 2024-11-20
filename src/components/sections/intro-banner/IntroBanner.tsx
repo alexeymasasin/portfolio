@@ -1,4 +1,5 @@
 import Button from "../../ui/Button/Button";
+import BannerPhoto from "./BannerPhoto";
 import styles from "./IntroBanner.module.css";
 
 export default function() {
@@ -15,8 +16,10 @@ export default function() {
                 <Button uppercase={true} weight="bold">
                     Contact me!
                 </Button>
-                <p>-- Email, Telegram, WhatsApp, Phone</p>
+                <p>--</p>
+                <p>Email, Telegram, WhatsApp, Phone</p>
             </div>
+            <BannerPhoto />
         </div>
     );
 }

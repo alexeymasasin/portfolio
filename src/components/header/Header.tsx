@@ -8,7 +8,7 @@ export default function Header() {
             <Link to="/" className={styles.logo}>
                 <div className={styles.item}>
                     <img
-                        src="https://avatars.githubusercontent.com/u/101698179?v=4"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/035/468/968/small_2x/ai-generated-cheerful-black-man-looking-at-camera-isolated-on-transparent-background-african-american-male-person-portrait-png.png"
                         alt="img"
                     />
                     <h2>Alexey Masasin</h2>
