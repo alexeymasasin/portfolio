@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  padding: 80px;
+  padding: 70px 90px 90px 90px;
   background-color: var(--secondary);
   border-radius: var(--border-radius-big);
   border: 1px solid var(--primary);

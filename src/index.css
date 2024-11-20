@@ -134,11 +134,11 @@ table {
 
   /* Colors */
 
-  --background-deep: #4b4a2c;
+  --background-deep: #131313;
   --background-gradient: linear-gradient(
     to bottom,
-    var(--background-deep) 0%,
-    #000000 200%
+    var(--background-deep) -50%,
+    #d3fe8a 1000%
   );
 
   --primary: #f5faff;
