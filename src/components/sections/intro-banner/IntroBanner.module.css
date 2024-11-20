@@ -1,9 +1,9 @@
 .wrapper {
   width: 100%;
   padding: 80px;
-  background-color: var(--secondary-darker);
+  background-color: var(--secondary);
   border-radius: var(--border-radius-big);
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--primary);
   display: flex;
   flex-direction: column;
   gap: var(--gap);
@@ -16,6 +16,7 @@
 }
 
 .wrapper > h2 {
+  width: 80%;
   font-size: var(--text-size-large);
 }
 
@@ -26,7 +27,7 @@
 }
 
 .actions > p {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .photo {

@@ -5,10 +5,25 @@
   background-color: var(--primary);
   font-size: var(--text-size-small);
   color: var(--background-deep);
-  padding: 0px 24px;
-  transition: all 0.4s;
+  transition: all 0.25s;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.wide {
+  padding: 0px 24px;
+}
+
+.square {
+  padding: 0px 0px;
+  height: 50px;
+  width: 50px;
+}
+
+.wrapper > svg {
+  fill: var(--background-deep);
+  font-size: var(--text-size-medium);
 }
 
 .wrapper:hover {
@@ -16,12 +31,12 @@
 }
 
 .wrapper:active {
-  background-color: var(--secondary);
-  box-shadow: 0 0 50px -10px var(--secondary);
+  background-color: var(--primary);
+  box-shadow: 0 0 50px -10px var(--primary);
 }
 
 .bold {
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 .uppercase {

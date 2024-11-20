@@ -126,18 +126,25 @@ table {
 /* Variables */
 
 :root {
+  /* Borders */
+
   --border-radius-big: 16px;
   --border-radius-mid: 12px;
   --border-radius-small: 6px;
 
-  --background-deep: #0f0e15;
-  --background-mid: #111018;
-  --background-shallow: #211e2f;
+  /* Colors */
+
+  --background-deep: #4b4a2c;
   --background-gradient: linear-gradient(
     to bottom,
     var(--background-deep) 0%,
-    var(--secondary) 400%
+    #000000 200%
   );
+
+  --primary: #f5faff;
+  --secondary: #cf4c22;
+
+  /* Text Vars */
 
   --text-primary: #f5faff;
   --text-secondary: #7c8491;
@@ -147,17 +154,6 @@ table {
   --text-size-medium: 24px;
   --text-size-big: 36px;
   --text-size-large: 56px;
-
-  --primary: #53ffb1;
-  --secondary: #915fff;
-  --tertiary: #d874e2;
-  --quaternary: #c82540;
-  --quinary: #f7cb60;
-  --senary: #53ffb1;
-
-  --secondary-darker: #342652;
-
-  --secondary-rgb: 145, 95, 255;
 
   --gap: 16px;
   --component-gap: 30px;
