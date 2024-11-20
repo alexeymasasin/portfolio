@@ -165,9 +165,21 @@ table {
   font-family: "Manrope", sans-serif;
   box-sizing: border-box;
   font-size: text-size-small;
+  font-weight: 500;
 }
 
-/* Rules */
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
 
 a {
   font-weight: 500;
@@ -181,6 +193,8 @@ body {
   background: var(--background-gradient);
   height: 100vh;
 }
+
+/* Selector rules */
 
 .container {
   margin: 20px 40px;

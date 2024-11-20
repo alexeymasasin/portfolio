@@ -13,6 +13,11 @@
   gap: var(--gap);
 }
 
+.item > img {
+  width: 64px;
+  border-radius: 50%;
+}
+
 .item > h2 {
   font-size: var(--text-size-medium);
 }
@@ -20,4 +25,19 @@
 .nav_list {
   display: flex;
   gap: var(--gap);
+}
+
+.nav_item {
+  transition: all 0.2s;
+  cursor: pointer;
+  opacity: 0.7;
+  user-select: none;
+}
+
+.nav_item:hover {
+  opacity: 1;
+}
+
+.nav_item:active {
+  color: var(--secondary);
 }

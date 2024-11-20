@@ -6,6 +6,15 @@
   font-size: var(--text-size-small);
   color: var(--background-deep);
   padding: 0px 24px;
+  transition: all 0.2s;
+}
+
+.wrapper:hover {
+  scale: 0.95;
+}
+
+.wrapper:active {
+  scale: 0.9;
 }
 
 .bold {
