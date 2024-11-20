@@ -146,7 +146,7 @@ table {
   --text-size-small: 16px;
   --text-size-medium: 24px;
   --text-size-big: 36px;
-  --text-size-large: 48px;
+  --text-size-large: 56px;
 
   --primary: #53ffb1;
   --secondary: #915fff;
@@ -154,6 +154,10 @@ table {
   --quaternary: #c82540;
   --quinary: #f7cb60;
   --senary: #53ffb1;
+
+  --secondary-darker: #342652;
+
+  --secondary-rgb: 145, 95, 255;
 
   --gap: 16px;
 }
@@ -197,5 +201,7 @@ body {
 /* Selector rules */
 
 .container {
-  margin: 20px 40px;
+  margin: 20px auto;
+  padding: 0 30px;
+  max-width: 1200px;
 }
