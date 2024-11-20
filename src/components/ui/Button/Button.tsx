@@ -1,7 +1,8 @@
+import { ReactNode } from "react";
 import styles from "./Button.module.css";
 
 type ButtonProps = {
-    children: string;
+    children: string | ReactNode;
     weight: "bold" | "normal";
     uppercase: boolean;
 };

@@ -1,6 +1,7 @@
 import Button from "../../ui/Button/Button";
-import BannerPhoto from "./BannerPhoto";
 import styles from "./IntroBanner.module.css";
+import Photo from "./Photo";
+import { IoMdContacts } from "react-icons/io";
 
 export default function() {
     return (
@@ -14,12 +15,12 @@ export default function() {
             </p>
             <div className={styles.actions}>
                 <Button uppercase={true} weight="bold">
-                    Contact me!
+                    Contact me <IoMdContacts className={styles.icon} />
                 </Button>
                 <p>--</p>
                 <p>Email, Telegram, WhatsApp, Phone</p>
             </div>
-            <BannerPhoto />
+            <Photo />
         </div>
     );
 }
