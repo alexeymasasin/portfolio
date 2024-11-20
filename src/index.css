@@ -160,6 +160,7 @@ table {
   --secondary-rgb: 145, 95, 255;
 
   --gap: 16px;
+  --component-gap: 30px;
 }
 
 /* Global rules */
@@ -196,6 +197,12 @@ body {
   background-color: var(--background-deep);
   background: var(--background-gradient);
   height: 100vh;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
 }
 
 /* Selector rules */

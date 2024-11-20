@@ -16,16 +16,12 @@
   scale: 0.96;
 }
 
-.logo:active .item > h2 {
-  color: var(--secondary);
-}
-
 .logo:hover .item > img {
   box-shadow: 0px 0px 40px -10px var(--secondary);
 }
 
 .logo:hover .item > h2 {
-  transform: translateX(10px);
+  color: var(--secondary);
 }
 
 .item {
@@ -48,6 +44,7 @@
   font-size: var(--text-size-big);
   transition: all 0.2s;
   font-family: "Philosopher", sans-serif;
+  margin-left: 14px;
 }
 
 .nav_list {
@@ -64,6 +61,12 @@
 
 .nav_item:hover.nav_item > * {
   opacity: 1;
+}
+
+.nav_link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .active {

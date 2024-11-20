@@ -17,7 +17,7 @@ export default function() {
                 <Button uppercase={true} weight="bold">
                     Contact me <IoMdContacts className={styles.icon} />
                 </Button>
-                <p>--</p>
+                <p> &mdash;</p>
                 <p>Email, Telegram, WhatsApp, Phone</p>
             </div>
             <Photo />
