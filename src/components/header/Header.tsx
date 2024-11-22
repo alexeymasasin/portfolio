@@ -19,11 +19,13 @@ export default function Header() {
 
     const handleLanguageChange = () => {
         if (language === "en") {
-            i18n.changeLanguage("ru");
             setLanguage("ru");
-        } else if (language === "ru") {
-            i18n.changeLanguage("en");
+            i18n.changeLanguage("ru");
+        }
+
+        if (language === "ru") {
             setLanguage("en");
+            i18n.changeLanguage("en");
         }
     };
 
