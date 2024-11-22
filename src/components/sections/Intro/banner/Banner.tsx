@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
 import Button from "../../../ui/Button/Button";
-import styles from "./IntroBanner.module.css";
+import styles from "./Banner.module.css";
 import Photo from "./Photo";
 import { IoMdContacts } from "react-icons/io";
 
-export default function () {
+export default function Banner() {
   const { t } = useTranslation();
   return (
     <div className={styles.wrapper}>
