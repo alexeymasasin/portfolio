@@ -11,6 +11,17 @@
   gap: var(--gap);
   overflow: hidden;
   position: relative;
+
+  /* ------- */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .wrapper > * {

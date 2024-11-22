@@ -1,0 +1,50 @@
+.gradient {
+  /* transition: all 0.5s ease-out; */
+  /*  */
+  /* --size: 1500px; */
+  /* --speed: 30s; */
+  /* --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8); */
+  /*  */
+  /* width: var(--size); */
+  /* height: var(--size); */
+  /* filter: blur(calc(var(--size) / 5)); */
+  /* background-image: linear-gradient(var(--primary), #000); */
+  /* animation: rotate var(--speed) var(--easing) alternate infinite; */
+  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+  /* position: absolute; */
+  /* top: 500px; */
+  /* left: 0; */
+  /* z-index: -1; */
+  /* opacity: 0.3; */
+
+  --size: 1200px;
+  --speed: 50s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(var(--primary), #202020);
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+  opacity: 0.35;
+}
+
+@media (max-width: 720px) {
+  .gradient {
+    --size: 500px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
