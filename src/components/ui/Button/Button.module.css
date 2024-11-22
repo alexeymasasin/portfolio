@@ -1,14 +1,19 @@
 .wrapper {
   height: 50px;
-  border: none;
+  border: 2px solid transparent;
   border-radius: var(--border-radius-small);
-  background-color: var(--primary);
+  background-color: var(--white);
   font-size: var(--text-size-small);
-  color: var(--background-deep);
+  color: var(--background);
   transition: all 0.25s;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper:hover.wrapper > svg {
+  fill: var(--white);
+  color: var(--white);
 }
 
 .wide {
@@ -22,17 +27,30 @@
 }
 
 .wrapper > svg {
-  fill: var(--background-deep);
+  fill: var(--background);
   font-size: var(--text-size-medium);
+  transition: all 0.1s;
 }
 
 .wrapper:hover {
-  box-shadow: 0 0 50px -20px var(--primary);
+  box-shadow: 0 0 50px -10px var(--primary);
+  fill: var(--white);
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.wrapper:hover.wrapper > svg {
+  fill: var(--white);
+  color: var(--white);
+}
+
+.wrapper:hover.dark_bg {
+  background-color: var(--background);
 }
 
 .wrapper:active {
-  background-color: var(--primary);
-  box-shadow: 0 0 50px -10px var(--primary);
+  background-color: var(--background);
+  border-color: var(--white);
 }
 
 .bold {

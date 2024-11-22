@@ -1,9 +1,11 @@
 .wrapper {
   width: 100%;
+  height: 420px;
   padding: 70px 90px 90px 90px;
-  background-color: var(--secondary);
   border-radius: var(--border-radius-big);
-  border: 1px solid var(--primary);
+  /* border: 1px solid var(--primary); */
+  background-color: var(--primary);
+  box-shadow: 0 0 200px -120px var(--primary);
   display: flex;
   flex-direction: column;
   gap: var(--gap);
@@ -33,12 +35,12 @@
 .photo {
   position: absolute;
   bottom: 0;
-  right: -50px;
+  right: -90px;
   width: 600px;
 }
 
 .icon {
   font-size: 30px;
   margin-left: 3px;
-  fill: var(--background-deep);
+  fill: var(--background);
 }

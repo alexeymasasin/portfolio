@@ -134,15 +134,16 @@ table {
 
   /* Colors */
 
-  --background-deep: #131313;
+  --background: #000000;
   --background-gradient: linear-gradient(
     to bottom,
-    var(--background-deep) -50%,
-    #d3fe8a 1000%
+    var(--background) -50%,
+    #323231 1000%
   );
 
-  --primary: #f5faff;
-  --secondary: #cf4c22;
+  --white: #ffffff;
+  --grey: #050505;
+  --primary: #cf4c22;
 
   /* Text Vars */
 
@@ -190,7 +191,7 @@ a:hover {
 }
 
 body {
-  background-color: var(--background-deep);
+  background-color: var(--background);
   background: var(--background-gradient);
   height: 100vh;
 }

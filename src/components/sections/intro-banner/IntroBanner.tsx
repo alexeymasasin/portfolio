@@ -16,7 +16,13 @@ export default function() {
                 tenetur est debitis!
             </p>
             <div className={styles.actions}>
-                <Button style="wide" uppercase={false} weight="bold">
+                <Button
+                    bg="dark"
+                    title={t("CONTACT_ME")}
+                    style="wide"
+                    uppercase={false}
+                    weight="bold"
+                >
                     {t("CONTACT_ME")} <IoMdContacts className={styles.icon} />
                 </Button>
                 <p> &mdash;</p>
