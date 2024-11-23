@@ -24,62 +24,90 @@ export default function State() {
 				</p>
 			</div>
 			<div className={styles.right_half}>
-				<Exemplar title="React" icon={<FaReact />} style="normal" />
-				<Exemplar title="Next.js" icon={<RiNextjsFill />} style="normal" />
+				<Exemplar
+					href="https://react.dev/"
+					title="React"
+					icon={<FaReact />}
+					style="normal"
+				/>
+				<Exemplar
+					href="https://nextjs.org/"
+					title="Next.js"
+					icon={<RiNextjsFill />}
+					style="normal"
+				/>
 				<div className={styles.collection}>
 					<Exemplar
+						href="https://html.spec.whatwg.org/"
 						title="HTML"
 						icon={<FaHtml5 />}
 						style="tiny"
 						border="top-left"
 					/>
 					<Exemplar
+						href="https://www.w3.org/Style/CSS/Overview.en.html"
 						title="CSS"
 						icon={<IoLogoCss3 />}
 						style="tiny"
 						border="top-right"
 					/>
 					<Exemplar
+						href="https://git-scm.com/"
 						title="Git"
 						icon={<FaGitAlt />}
 						style="tiny"
 						border="bot-left"
 					/>
 					<Exemplar
+						href="https://tailwindcss.com/"
 						title="Tailwind"
 						icon={<RiTailwindCssFill />}
 						style="tiny"
 						border="bot-right"
 					/>
 				</div>
-				<Exemplar title="Redux" icon={<SiRedux />} style="normal" />
+				<Exemplar
+					href="https://nodejs.org/en"
+					title="Node.js"
+					icon={<FaNodeJs />}
+					style="normal"
+				/>
 				<div className={styles.collection}>
 					<Exemplar
+						href="https://www.typescriptlang.org/"
 						title="TypeScript"
 						icon={<SiTypescript />}
 						style="tiny"
 						border="top-left"
 					/>
 					<Exemplar
+						href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 						title="JavaScript"
 						icon={<SiJavascript />}
 						style="tiny"
 						border="top-right"
 					/>
 					<Exemplar
-						title="Node.js"
-						icon={<FaNodeJs />}
+						href="https://redux.js.org/"
+						title="Redux"
+						icon={<SiRedux />}
 						style="tiny"
 						border="bot-left"
 					/>
 					<Exemplar
+						href="https://reactrouter.com/"
 						title="React-Router"
 						icon={<SiReactrouter />}
 						style="tiny"
 						border="bot-right"
 					/>
 				</div>
-				<Exemplar title="GitHub" icon={<FaGithub />} style="normal" />
+				<Exemplar
+					href="https://github.com/"
+					title="GitHub"
+					icon={<FaGithub />}
+					style="normal"
+				/>
 			</div>
 		</div>
 	);

@@ -6,6 +6,7 @@ type ExemplarProps = {
 	title: string;
 	style: 'normal' | 'tiny';
 	border?: 'top-left' | 'top-right' | 'bot-left' | 'bot-right';
+	href: string;
 };
 
 export default function Exemplar({
@@ -13,9 +14,12 @@ export default function Exemplar({
 	title,
 	style,
 	border,
+	href,
 }: ExemplarProps) {
 	return (
-		<div
+		<a
+			target="_blank"
+			href={href}
 			title={title}
 			className={`${styles.wrapper} ${
 				style === 'normal' ? styles.normal : styles.tiny
@@ -32,6 +36,6 @@ export default function Exemplar({
 			}`}
 		>
 			{icon}
-		</div>
+		</a>
 	);
 }
