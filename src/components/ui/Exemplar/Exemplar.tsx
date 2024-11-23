@@ -1,19 +1,37 @@
-import { ReactNode } from "react";
-import styles from "./Exemplar.module.css";
+import { ReactNode } from 'react';
+import styles from './Exemplar.module.css';
 
 type ExemplarProps = {
-    icon: ReactNode;
-    title: string;
-    style: "normal" | "tiny";
+	icon: ReactNode;
+	title: string;
+	style: 'normal' | 'tiny';
+	border?: 'top-left' | 'top-right' | 'bot-left' | 'bot-right';
 };
 
-export default function Exemplar({ icon, title, style }: ExemplarProps) {
-    return (
-        <div
-            title={title}
-            className={`${styles.wrapper} ${style === "normal" ? styles.normal : styles.tiny}`}
-        >
-            {icon}
-        </div>
-    );
+export default function Exemplar({
+	icon,
+	title,
+	style,
+	border,
+}: ExemplarProps) {
+	return (
+		<div
+			title={title}
+			className={`${styles.wrapper} ${
+				style === 'normal' ? styles.normal : styles.tiny
+			} ${
+				border === 'top-left'
+					? styles.top_left
+					: border === 'top-right'
+					? styles.top_right
+					: border === 'bot-left'
+					? styles.bot_left
+					: border === 'bot-right'
+					? styles.bot_right
+					: ''
+			}`}
+		>
+			{icon}
+		</div>
+	);
 }

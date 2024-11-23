@@ -1,12 +1,13 @@
 {
-  "HOME": "Home",
-  "ABOUT": "About",
-  "PROJECTS": "Own Projects",
-  "RESUME": "Resume",
-  "WORK": "Work",
-  "ALEXEY_MASASIN": "Alexey Masasin",
-  "GREETING": "Hey! I'm Alexey, a Frontend Developer.",
-  "CONTACT_ME": "Contact me now",
-  "CONTACT_WAYS": "Phone, Email, Telegram, WhatsApp",
-  "CHANGE_LANGUAGE": "Switch language to Russian"
+	"HOME": "Home",
+	"ABOUT": "About",
+	"PROJECTS": "Own Projects",
+	"RESUME": "Resume",
+	"WORK": "Work",
+	"ALEXEY_MASASIN": "Alexey Masasin",
+	"GREETING": "Hello there! I'm Alexey, a Frontend Developer.",
+	"GLOBAL_DESC": "And this is my portfolio web-site. Here you can find all the important information about me - my tech stack, working experience, own projects, etc.",
+	"CONTACT_ME": "Contact me now",
+	"CONTACT_WAYS": "Phone, Email, Telegram, WhatsApp",
+	"CHANGE_LANGUAGE": "Switch language to Russian"
 }
