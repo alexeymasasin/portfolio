@@ -3,9 +3,10 @@ import styles from './State.module.css';
 
 import { FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
 import { IoLogoCss3 } from 'react-icons/io';
-import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { RiTailwindCssFill } from 'react-icons/ri';
 import {
 	SiJavascript,
+	SiNextdotjs,
 	SiReactrouter,
 	SiRedux,
 	SiTypescript,
@@ -33,7 +34,7 @@ export default function State() {
 				<Exemplar
 					href="https://nextjs.org/"
 					title="Next.js"
-					icon={<RiNextjsFill />}
+					icon={<SiNextdotjs />}
 					style="normal"
 				/>
 				<div className={styles.collection}>

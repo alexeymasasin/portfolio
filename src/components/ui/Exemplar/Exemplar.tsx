@@ -6,7 +6,7 @@ type ExemplarProps = {
 	title: string;
 	style: 'normal' | 'tiny';
 	border?: 'top-left' | 'top-right' | 'bot-left' | 'bot-right';
-	href: string;
+	href?: string;
 };
 
 export default function Exemplar({

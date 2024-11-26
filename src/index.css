@@ -201,13 +201,12 @@ html {
 body {
 	background-color: var(--background);
 	background: var(--background-gradient);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	height: 100vh;
+	padding: 1px;
 }
 
 img {
