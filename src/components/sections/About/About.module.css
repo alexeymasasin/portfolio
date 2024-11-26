@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+}
+
+.right_side {
+  width: 40%;
+}
+
+.left_side {
+  width: 59%;
+}
