@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { BiLogoRedux, BiLogoTypescript } from 'react-icons/bi';
+import { BiLogoNetlify, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi';
 import {
 	FaFigma,
 	FaGitAlt,
@@ -11,6 +11,7 @@ import {
 } from 'react-icons/fa';
 import { GrArchlinux } from 'react-icons/gr';
 import { IoLogoCss3 } from 'react-icons/io';
+import { IoLogoVercel } from 'react-icons/io5';
 import {
 	RiCopilotFill,
 	RiJavascriptFill,
@@ -30,7 +31,7 @@ import {
 	SiWebpack,
 } from 'react-icons/si';
 import { TbBrandVite } from 'react-icons/tb';
-import { VscVscode } from 'react-icons/vsc';
+import { VscGithubAlt, VscVscode } from 'react-icons/vsc';
 import Exemplar from '../../ui/Exemplar/Exemplar';
 import styles from './About.module.css';
 import SkillTitle from './SkillTitle';
@@ -180,7 +181,6 @@ export default function About() {
 					/>
 				</div>
 				<SkillTitle title="Tools" />
-
 				<div className={styles.stack}>
 					<Exemplar
 						href="https://git-scm.com/"
@@ -241,6 +241,27 @@ export default function About() {
 						href="https://copilot.microsoft.com/"
 						title="Copilot"
 						icon={<RiCopilotFill />}
+						style="normal"
+					/>
+				</div>
+				<SkillTitle title="Host" />
+				<div className={styles.stack}>
+					<Exemplar
+						href="https://vercel.com/"
+						title="Vercel"
+						icon={<IoLogoVercel />}
+						style="normal"
+					/>
+					<Exemplar
+						href="https://pages.github.com/"
+						title="GitHub Pages"
+						icon={<VscGithubAlt />}
+						style="normal"
+					/>
+					<Exemplar
+						href="https://www.netlify.com/"
+						title="Netlify"
+						icon={<BiLogoNetlify />}
 						style="normal"
 					/>
 				</div>
