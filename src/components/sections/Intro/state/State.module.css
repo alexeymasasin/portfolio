@@ -1,29 +1,29 @@
 .wrapper {
-	display: flex;
-	gap: var(--component-gap);
-	justify-content: space-between;
+  display: flex;
+  gap: var(--component-gap);
+  justify-content: space-between;
 }
 
 .left_half {
-	width: 49%;
+  width: 49%;
 }
 
 .left_half > h2 {
-	font-size: var(--text-size-big);
-	margin-bottom: var(--gap);
+  font-size: var(--text-size-big);
+  margin-bottom: var(--gap);
 }
 
 .right_half {
-	width: 49%;
-	display: flex;
-	justify-content: end;
-	flex-wrap: wrap;
-	gap: var(--gap);
+  width: 49%;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: var(--medium-gap);
 }
 
 .collection {
-	display: flex;
-	width: 170px;
-	flex-wrap: wrap;
-	gap: 4px;
+  display: flex;
+  width: 170px;
+  flex-wrap: wrap;
+  gap: 4px;
 }

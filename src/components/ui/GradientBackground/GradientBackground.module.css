@@ -13,7 +13,7 @@
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   position: absolute;
   top: 500px;
-  left: 0;
+  left: -300px;
   z-index: -1;
   opacity: 0.25;
 }

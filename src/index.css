@@ -156,6 +156,8 @@ table {
   --text-size-big: 36px;
   --text-size-large: 56px;
 
+  --mini-gap: 4px;
+  --medium-gap: 8px;
   --gap: 16px;
   --component-gap: 30px;
 }
@@ -181,6 +183,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
+  display: inline;
 }
 
 a {
