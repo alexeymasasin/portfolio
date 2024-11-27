@@ -33,7 +33,7 @@ export default function Header() {
 
 	return (
 		<header className={styles.wrapper}>
-			<Link to="/" className={styles.logo}>
+			<Link to="/portfolio" className={styles.logo}>
 				<div className={styles.item}>
 					<img
 						src="https://static.vecteezy.com/system/resources/thumbnails/035/468/968/small_2x/ai-generated-cheerful-black-man-looking-at-camera-isolated-on-transparent-background-african-american-male-person-portrait-png.png"
