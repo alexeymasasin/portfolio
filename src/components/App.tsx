@@ -28,8 +28,8 @@ function App() {
 			>
 				<Header />
 				<Routes location={displayLocation}>
-					<Route path="/" element={<Intro />} />
-					<Route path="/about" element={<About />} />
+					<Route path="/portfolio" element={<Intro />} />
+					<Route path="/portfolio/about" element={<About />} />
 				</Routes>
 			</div>
 			<GradientBackground />
