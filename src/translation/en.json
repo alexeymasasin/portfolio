@@ -21,5 +21,11 @@
 	"MOSCOW_RUSSIA": "Moscow, Russia",
 	"MTI_COURSE_NAME": "Internet Technologies and Mobile Applications",
 	"MTI_COURSE_CODE": "(09.03.03, Applied Computer Science)",
-	"MTI_COURSE_DEGREE": "Bachelor course"
+	"MTI_COURSE_DEGREE": "Bachelor course",
+	"CLICK_TO_SHOW_CONTACTS": "Click here to show",
+	"CLOSE": "Close",
+	"CONTACT": "Contact me",
+	"FIRST_NAME": "First Name",
+	"LAST_NAME": "Last Name",
+	"MESSAGE": "Message"
 }

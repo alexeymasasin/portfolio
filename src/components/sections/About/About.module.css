@@ -16,13 +16,6 @@
 	font-size: var(--text-size-medium);
 }
 
-.divider {
-	display: inline;
-	background-color: var(--primary);
-	flex-grow: 1;
-	height: 1px;
-}
-
 .chapter_title {
 	display: flex;
 	align-items: center;

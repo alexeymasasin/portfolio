@@ -32,6 +32,7 @@ import {
 } from 'react-icons/si';
 import { TbBrandVite } from 'react-icons/tb';
 import { VscGithubAlt, VscVscode } from 'react-icons/vsc';
+import Button from '../../ui/Button/Button';
 import Exemplar from '../../ui/Exemplar/Exemplar';
 import styles from './About.module.css';
 import ChapterTitle from './ChapterTitle';
@@ -51,6 +52,9 @@ export default function About() {
 				<ChapterTitle title={t('Education')} />
 				<EducationTable />
 				<ChapterTitle title={t('Contacts')} />
+				<Button title={t('CLICK_TO_SHOW_CONTACTS')} style="wide" weight="bold">
+					{t('CLICK_TO_SHOW_CONTACTS')}
+				</Button>
 			</div>
 			<div className={styles.right_side}>
 				<h3>{t('MY_SKILLSET')}</h3>
