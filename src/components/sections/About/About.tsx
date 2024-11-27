@@ -32,6 +32,7 @@ import {
 } from 'react-icons/si';
 import { TbBrandVite } from 'react-icons/tb';
 import { VscGithubAlt, VscVscode } from 'react-icons/vsc';
+import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import Button from '../../ui/Button/Button';
 import Exemplar from '../../ui/Exemplar/Exemplar';
 import styles from './About.module.css';
@@ -40,6 +41,8 @@ import EducationTable from './EducationTable';
 
 export default function About() {
 	const { t } = useTranslation();
+
+	useDocumentTitle('ABOUT');
 
 	return (
 		<div className={styles.wrapper}>

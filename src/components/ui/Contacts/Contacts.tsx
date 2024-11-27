@@ -30,7 +30,7 @@ export default function Contacts() {
 				/>
 				<ContactsItem
 					href="tel:+7999059020"
-					title="Phone"
+					title={t('PHONE')}
 					icon={<PiPhoneCallFill />}
 				/>
 				<ContactsItem
