@@ -34,7 +34,8 @@ import { TbBrandVite } from 'react-icons/tb';
 import { VscGithubAlt, VscVscode } from 'react-icons/vsc';
 import Exemplar from '../../ui/Exemplar/Exemplar';
 import styles from './About.module.css';
-import SkillTitle from './SkillTitle';
+import ChapterTitle from './ChapterTitle';
+import EducationTable from './EducationTable';
 
 export default function About() {
 	const { t } = useTranslation();
@@ -43,11 +44,17 @@ export default function About() {
 		<div className={styles.wrapper}>
 			<div className={styles.left_side}>
 				<h2>{t('INTRODUCE_MYSELF')}</h2>
-				<p></p>
+				<ChapterTitle title={t('GENERAL')} />
+				<p>{t('ABOUT_ME_1')}</p>
+				<p>{t('ABOUT_ME_2')}</p>
+				<p>{t('ABOUT_ME_3')}</p>
+				<ChapterTitle title={t('Education')} />
+				<EducationTable />
+				<ChapterTitle title={t('Contacts')} />
 			</div>
 			<div className={styles.right_side}>
 				<h3>{t('MY_SKILLSET')}</h3>
-				<SkillTitle title="Frontend" />
+				<ChapterTitle title="Frontend" />
 
 				<div className={styles.stack}>
 					<Exemplar
@@ -159,7 +166,7 @@ export default function About() {
 						/>
 					</div>
 				</div>
-				<SkillTitle title="Backend" />
+				<ChapterTitle title="Backend" />
 				<div className={styles.stack}>
 					<Exemplar
 						href="https://nodejs.org/en"
@@ -180,7 +187,7 @@ export default function About() {
 						style="normal"
 					/>
 				</div>
-				<SkillTitle title="Tools" />
+				<ChapterTitle title="Tools" />
 				<div className={styles.stack}>
 					<Exemplar
 						href="https://git-scm.com/"
@@ -244,7 +251,7 @@ export default function About() {
 						style="normal"
 					/>
 				</div>
-				<SkillTitle title="Host" />
+				<ChapterTitle title="Host" />
 				<div className={styles.stack}>
 					<Exemplar
 						href="https://vercel.com/"
