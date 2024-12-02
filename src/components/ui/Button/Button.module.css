@@ -67,3 +67,13 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+.desktop_hidden {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .desktop_hidden {
+    display: block;
+  }
+}
