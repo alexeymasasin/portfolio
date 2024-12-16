@@ -166,7 +166,7 @@ export default function About() {
 						/>
 						<Exemplar
 							href="https://www.w3.org/Style/CSS/Overview.en.html"
-							title="CSS"
+							title="Vite"
 							icon={<TbBrandVite />}
 							style="tiny"
 							border="bot-right"

@@ -5,4 +5,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [react()],
 	base: '/portfolio',
+	css: {
+		modules: {
+			generateScopedName: '[name]_[local]_[hash:base64:5]',
+		},
+	},
 });
