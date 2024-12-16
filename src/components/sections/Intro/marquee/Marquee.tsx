@@ -29,7 +29,7 @@ import MarqueeItem from './MarqueeItem';
 export default function Marquee() {
 	return (
 		<div className={styles.wrapper}>
-			<div className={styles.line}>
+			<div className={styles.line + ' ' + styles.first}>
 				<MarqueeItem title="React" icon={<RiReactjsFill />} />
 				<MarqueeItem title="Redux" icon={<BiLogoRedux />} />
 				<MarqueeItem title="Next.js" icon={<SiNextdotjs />} />
@@ -51,8 +51,7 @@ export default function Marquee() {
 				<MarqueeItem title="Vercel" icon={<IoLogoVercel />} />
 				<MarqueeItem title="Git" icon={<FaGit />} />
 			</div>
-
-			<div className={styles.line}>
+			<div className={styles.line + ' ' + styles.second}>
 				<MarqueeItem title="React" icon={<RiReactjsFill />} />
 				<MarqueeItem title="Redux" icon={<BiLogoRedux />} />
 				<MarqueeItem title="Next.js" icon={<SiNextdotjs />} />

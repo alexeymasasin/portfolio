@@ -2,35 +2,51 @@
 	height: 74px;
 	background-color: #0004;
 	border: 1px var(--white) solid;
-	gap: var(--gap);
 	user-select: none;
 	border-radius: var(--border-radius-big);
 	opacity: 0.7;
 
 	display: flex;
-	position: relative;
-	overflow: hidden;
+	overflow-x: hidden;
 	align-items: center;
-	justify-content: center;
+	gap: var(--gap);
 }
 
 .line {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: end;
 	white-space: nowrap;
-	will-change: transform;
 	gap: var(--gap);
-	animation: marquee 7s linear infinite;
+	flex-shrink: 0;
+	white-space: nowrap;
 }
 
-@keyframes marquee {
-	from {
-		transform: translateX(0);
-	}
+.first {
+	animation: marquee1 20s infinite linear;
+	animation-delay: -20s;
+}
 
-	to {
-		transform: translateX(-50%);
+.second {
+	animation: marquee2 20s infinite linear;
+	animation-delay: -10s;
+}
+
+@keyframes marquee1 {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes marquee2 {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-200%);
 	}
 }
 
