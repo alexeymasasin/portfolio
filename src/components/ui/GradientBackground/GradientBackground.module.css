@@ -13,7 +13,7 @@
 	transition: all 0.5s ease-out;
 
 	--size: 1500px;
-	--speed: 70s;
+	--speed: 50s;
 	--easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
 	width: var(--size);

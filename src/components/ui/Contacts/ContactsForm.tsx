@@ -24,10 +24,11 @@ export default function ContactsForm() {
 					{t('MESSAGE')}
 					<textarea id="message" name="message" required />
 				</label>
+				<button type="submit">
+					{t('DONE')}
+					<MdDone />
+				</button>
 			</div>
-			<button type="submit">
-				<MdDone />
-			</button>
 		</form>
 	);
 }

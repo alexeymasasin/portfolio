@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
+import { BiLogoTelegram } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
-import { FaTelegramPlane } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { PiPhoneCallFill } from 'react-icons/pi';
 import Divider from '../Divider/Divider';
@@ -26,7 +26,7 @@ export default function Contacts() {
 				<ContactsItem
 					href="https://t.me/alexeymasasin"
 					title="Telegram"
-					icon={<FaTelegramPlane />}
+					icon={<BiLogoTelegram />}
 				/>
 				<ContactsItem
 					href="tel:+7999059020"

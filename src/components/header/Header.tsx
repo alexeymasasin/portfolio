@@ -15,7 +15,6 @@ import Swal from 'sweetalert2';
 import useLocalStorage from '../../hooks/useLocalStorage';
 import Button from '../ui/Button/Button';
 import Menu from '../ui/Menu/Menu';
-import avatar from './../../assets/img/avatars/avatar.png';
 import i18n from './../../i18n';
 import styles from './Header.module.css';
 import NavItem from './NavItem';
@@ -49,7 +48,10 @@ export default function Header() {
 		<header className={styles.wrapper}>
 			<Link to="/portfolio" className={styles.logo}>
 				<div className={styles.item}>
-					<img src={avatar} alt="img" />
+					<img
+						src="https://avatars.githubusercontent.com/u/101698179?v=4"
+						alt="img"
+					/>
 					<h2>{t('ALEXEY_MASASIN')}</h2>
 				</div>
 			</Link>
