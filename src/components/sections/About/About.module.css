@@ -22,7 +22,7 @@
 	gap: var(--medium-gap);
 }
 
-.left_side {
+.introducing {
 	display: flex;
 	flex-direction: column;
 	gap: var(--gap);
@@ -32,7 +32,7 @@
 	padding-right: var(--component-gap);
 }
 
-.right_side {
+.skillset {
 	display: flex;
 	flex-direction: column;
 	gap: var(--gap);
