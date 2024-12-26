@@ -14,6 +14,13 @@
   user-select: none;
 }
 
+.tag,
+.left_bracket,
+.right_bracket,
+.slash {
+  transition: all 0.25s;
+}
+
 .tag {
   position: relative;
   top: 22px;
@@ -79,4 +86,72 @@
 
 .bio_link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+  }
+
+  .left_bracket,
+  .right_bracket,
+  .slash {
+    font-size: 120px;
+    line-height: 75%;
+  }
+
+  .text_content {
+    width: auto;
+    display: inline;
+  }
+
+  .text_content > p {
+    margin-bottom: var(--gap);
+  }
+
+  .text_content > p:nth-child(-n + 2) {
+    display: inline-block;
+  }
+
+  .tag {
+    top: 22px;
+    left: 0;
+    font-size: var(--text-size-big);
+    font-weight: 800;
+    width: 170px;
+  }
+
+  .animation {
+    margin-bottom: var(--gap);
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left_bracket,
+  .right_bracket,
+  .slash {
+    font-size: 100px;
+    line-height: 80%;
+  }
+
+  .tag {
+    top: 22px;
+    left: 0;
+    font-size: var(--text-size-medium);
+    width: 100px;
+  }
+
+  .animation {
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .animation {
+    margin-left: -10px;
+  }
 }

@@ -28,7 +28,7 @@ export default function Contacts() {
                     icon={<BiLogoTelegram />}
                 />
                 <ContactsItem
-                    href="tel:+7999059020"
+                    href="tel:+79999059020"
                     title={t("PHONE")}
                     icon={<PiPhoneCallFill />}
                 />
