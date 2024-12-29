@@ -1,5 +1,37 @@
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+.wrapper > h2 {
+	font-size: var(--text-size-big);
+	margin-bottom: var(--gap);
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+.item,
+.item > a {
+	display: flex;
+	align-items: center;
+}
+
+.item {
+	background-color: var(--primary);
+	border-radius: var(--border-radius-small);
+	height: 50px;
+	font-size: var(--text-size-medium);
+}
+
+.item > a {
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: left;
+	gap: var(--gap);
+	padding-left: var(--gap);
 }

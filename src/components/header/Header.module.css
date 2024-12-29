@@ -82,9 +82,12 @@
 	gap: var(--gap);
 	transition: all 0.25s;
 	opacity: 0.6;
+	position: relative;
+	top: -7px;
 }
 
 .pointer__arrow {
+	transition: all 0.25s;
 	position: absolute;
 	top: 16px;
 	font-size: 20px;
@@ -144,6 +147,7 @@
 
 	.pointer {
 		font-size: var(--text-size-tiny);
+		top: -4px;
 	}
 
 	.pointer__arrow {
