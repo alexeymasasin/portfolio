@@ -11,11 +11,13 @@ type MenuItemProps = {
 
 export default function MenuItem({ title, to, icon }: MenuItemProps) {
 	return (
-		<div className={styles.item} onClick={() => Swal.close()}>
-			<NavLink to={`portfolio${to}`}>
-				{icon}
-				{title}
-			</NavLink>
-		</div>
+		<NavLink
+			className={styles.item}
+			to={`portfolio${to}`}
+			onClick={() => Swal.close()}
+		>
+			{icon}
+			{title}
+		</NavLink>
 	);
 }

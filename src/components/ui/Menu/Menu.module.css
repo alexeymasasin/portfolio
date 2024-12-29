@@ -15,20 +15,14 @@
 	gap: var(--gap);
 }
 
-.item,
-.item > a {
+.item {
 	display: flex;
 	align-items: center;
-}
-
-.item {
 	background-color: var(--primary);
 	border-radius: var(--border-radius-small);
 	height: 50px;
 	font-size: var(--text-size-medium);
-}
 
-.item > a {
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-align: left;
