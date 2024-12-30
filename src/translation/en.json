@@ -5,7 +5,8 @@
 	"RESUME": "Resume",
 	"WORK": "Work",
 	"ALEXEY_MASASIN": "Alexey Masasin",
-	"GREETING": "Hey there! My name is Alexey,",
+	"GREETING": "Hello.",
+	"MY_NAME_IS": "My name is Alexey,",
 	"I_AM": "I'm a",
 	"PROFESSION": "web-developer",
 	"GLOBAL_DESC": "And this is my portfolio web-site. Here you can find all the important information about me - my tech stack, working experience, own projects, etc.",
@@ -34,5 +35,16 @@
 	"MENU": "Menu",
 	"DONE": "Done",
 	"CONTACTS": "Contacts",
-	"EDUCATION": "Education"
+	"EDUCATION": "Education",
+	"EDUCATION_EXTRA": "Further Education",
+	"QUICK_BIO": "My quick bio...",
+	"BIO_INTRO_1": "22 years old, web developer with over 3 years of experience. Main focus is frontend, but I am increasingly delving into backend and am looking with interest towards full-stack development.",
+	"BIO_INTRO_2": "Currently, I continue distance learning in my specialty at the Moscow Technological Institute (MTI), and I also study independently on a daily basis, improving the quality of my expertise in the field of IT. ",
+	"BIO_INTRO_3": "I am looking for an opportunity to become part of a team and contribute to successful, business-friendly projects.",
+	"BIO_EXTRA": "In my free time I prefer to listen to and write some music, which is my main hobby. I also like to spend my evenings watching movies, cooking, playing video games.",
+	"MORE_BIO": "More information about me on",
+	"MORE_BIO_LINK": "this page",
+	"BIO_MAIN_1": "My name is Alexey, I am 22 years old, I have been a web developer for more than 3 years. My main focus is on the frontend. However, over time, I began to actively study backend technologies, considering the possibility of moving to full-stack development, which will allow me to create complex and full-fledged web applications, covering both external and internal functionality.",
+	"BIO_MAIN_2": "At the moment, I continue distance learning at the Moscow Technological Institute (MIT), where I deepen my knowledge in the field of web development and modern IT technologies. In addition, I try to actively self-educate every day, studying new technologies for myself, participating in online lectures and courses, which allows me to maintain the relevance of my knowledge and skills in the rapidly changing world of IT.",
+	"BIO_MAIN_3": "I am also looking for an opportunity to become part of a team of experienced professionals to contribute to successful projects that will benefit the business and its clients. I am confident that at the moment my skills and desire for constant development already allow me to close almost any tasks and offer optimal solutions. I am open to ANY offers to participate in joint work on projects."
 }
