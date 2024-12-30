@@ -219,6 +219,11 @@ img {
 	-moz-user-select: none;
 }
 
+/* Hover effects on touch devices */
+html.touch *:hover {
+	all: unset !important;
+}
+
 /* Selector rules */
 
 .container {
