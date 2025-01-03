@@ -6,7 +6,7 @@
 		"imagePath": "",
 		"date": "2024-2025",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"linkHref": "https://github.com/alexeymasasin/threadcab-express-api/",
 		"status": "ONGOING"
 	},
 	{
@@ -16,7 +16,7 @@
 		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/todo-app-demo/main/public/hero.png",
 		"date": "2024",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"linkHref": "https://alexeymasasin.github.io/todo-app-demo/",
 		"status": "FINISHED"
 	},
 	{
@@ -26,7 +26,7 @@
 		"imagePath": "https://avatars.githubusercontent.com/u/101698179?v=4",
 		"date": "2024 - 2025",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"linkHref": "https://github.com/alexeymasasin/portfolio/",
 		"status": "ONGOING"
 	},
 	{
@@ -36,7 +36,7 @@
 		"imagePath": "",
 		"date": "2024",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"linkHref": "https://github.com/alexeymasasin/world-news",
 		"status": "DROPPED"
 	}
 ]

@@ -48,7 +48,9 @@ export default function ProjectsItem({
 				</p>
 				<p>{`${date}, ${t(`${status}`)}`}</p>
 				<p>{t(`${type}`)}</p>
-				<a href={linkHref}>{t('PROJECT_LINK_TITLE')}</a>
+				<a href={linkHref} target="_blank">
+					{t('PROJECT_LINK_TITLE')}
+				</a>
 			</div>
 		</div>
 	);

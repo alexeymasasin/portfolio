@@ -69,6 +69,7 @@
 	transform: scaleX(0);
 	transform-origin: top left;
 	transition: transform 0.25s ease;
+	z-index: -1;
 }
 
 .logo:hover.logo h2::before {
