@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import avatar from './../../assets/img/avatars/transparent-bg.png';
 import styles from './Header.module.css';
 import NavList from './NavList';
+import avatar from '/img/avatars/transparent-bg.png';
 
 export default function Header() {
 	const { t } = useTranslation();

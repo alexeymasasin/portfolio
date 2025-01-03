@@ -1,0 +1,37 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+.wrapper img {
+	overflow: hidden;
+	transition: all 0.25s;
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+	filter: grayscale(1);
+	animation: resume 3s infinite linear;
+}
+
+.wrapper img:hover {
+	transform: scale(1.01);
+	filter: none;
+}
+
+.wrapper a,
+.wrapper img {
+	width: 330px;
+}
+
+@keyframes resume {
+	0% {
+		box-shadow: 0 0 80px -10px var(--primary);
+	}
+	50% {
+		box-shadow: 0 0 80px -50px var(--primary);
+	}
+	100% {
+		box-shadow: 0 0 80px -10px var(--primary);
+	}
+}

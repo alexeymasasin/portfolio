@@ -4,6 +4,7 @@ import Header from './header/Header';
 import About from './sections/About/About';
 import Intro from './sections/Intro/Intro';
 import Projects from './sections/Projects/Projects';
+import Resume from './sections/Resume/Resume';
 import GradientBackground from './ui/GradientBackground/GradientBackground';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 					<Route path="/portfolio" element={<Intro />} />
 					<Route path="/portfolio/about" element={<About />} />
 					<Route path="/portfolio/projects" element={<Projects />} />
+					<Route path="/portfolio/resume" element={<Resume />} />
 				</Routes>
 			</div>
 			<GradientBackground />
