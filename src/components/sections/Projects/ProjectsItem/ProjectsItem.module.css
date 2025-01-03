@@ -45,6 +45,8 @@
 	object-fit: contain;
 	padding: var(--mini-gap);
 	filter: saturate(0);
+	user-select: none;
+	-webkit-user-drag: none;
 }
 
 .left h4 {

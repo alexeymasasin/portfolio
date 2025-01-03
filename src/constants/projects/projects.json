@@ -30,6 +30,16 @@
 		"status": "ONGOING"
 	},
 	{
+		"title": "RCW-120",
+		"desc": "RCW_120_DESC",
+		"stack": "VSCode, Alacritty, Polybar, BSPWM, Nvim, ...",
+		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/RCW-120/refs/heads/main/images/vscode/screenshots/RCW-120-V1/main.png",
+		"date": "2024 - 2025",
+		"type": "OTHER",
+		"linkHref": "https://github.com/alexeymasasin/RCW-120",
+		"status": "ONGOING"
+	},
+	{
 		"title": "World News",
 		"desc": "WORLD_NEWS_DESC",
 		"stack": "React, JavaScript, TypeScript, HTML, CSS, ...",
