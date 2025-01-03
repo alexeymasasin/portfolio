@@ -13,7 +13,7 @@
 		"title": "Todo App",
 		"desc": "TODO_APP_DESC",
 		"stack": "React, JavaScript, Framer-Motion, i18Next, ...",
-		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/todo-app-demo/main/public/hero.png",
+		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/todo-app-demo/refs/heads/main/public/android-chrome-192x192.png",
 		"date": "2024",
 		"type": "PET",
 		"linkHref": "https://alexeymasasin.github.io/todo-app-demo/",
