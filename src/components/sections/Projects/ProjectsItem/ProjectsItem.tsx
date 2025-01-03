@@ -41,7 +41,11 @@ export default function ProjectsItem({
 				</div>
 			</div>
 			<div className={styles.right}>
-				<p className={styles.stack}>{stack}</p>
+				<p className={styles.stack}>
+					{t('STACK')}
+					{': '}
+					{stack}
+				</p>
 				<p>{`${date}, ${t(`${status}`)}`}</p>
 				<p>{t(`${type}`)}</p>
 				<a href={linkHref}>{t('PROJECT_LINK_TITLE')}</a>

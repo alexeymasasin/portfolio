@@ -56,6 +56,7 @@
 	"FINISHED": "finished",
 	"ONGOING": "in progress",
 	"DROPPED": "dropped",
+	"STACK": "Stack",
 	"THREADCAB_DESC": "A small social network for exchanging opinions. It has the functionality of registration and login, posting entries, likes, subscriptions, automatic generation of avatars and uploading your own, etc.",
 	"TODO_APP_DESC": "A simple Todo app for task management. Functionality: adding, deleting and moving tasks, ability to mark them as completed and important, saving tasks in local storage, ability to import/export tasks, switching between languages ​​and design themes.",
 	"PORTFOLIO_DESC": "The site you are currently on.",

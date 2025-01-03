@@ -76,6 +76,37 @@
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 730px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.left {
+		width: 100%;
+		flex-direction: column;
+		padding-bottom: var(--gap);
+		border-bottom: 1px solid #fff3;
+	}
+
+	.right > p {
+		display: inline;
+	}
+
+	.right {
+		flex-direction: row;
+		height: auto;
+		min-width: auto;
+		width: 100%;
+		gap: var(--gap);
+		justify-content: center;
+		align-items: start;
+	}
+
+	.stack {
+		width: 100px;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.wrapper {
 		opacity: 1;
