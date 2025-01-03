@@ -1,0 +1,83 @@
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: var(--gap);
+	background-color: #fff1;
+	border: 1px solid var(--white);
+	border-radius: var(--border-radius-small);
+	padding: var(--gap);
+	opacity: 0.8;
+	transition: all 0.25s;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.wrapper:hover {
+	opacity: 1;
+}
+
+.left {
+	display: flex;
+	gap: var(--gap);
+}
+
+.left div {
+	display: flex;
+	flex-direction: column;
+	gap: var(--mini-gap);
+}
+
+.left > img,
+.no_preview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: var(--text-size-large);
+	min-width: 120px;
+	width: 120px;
+	height: 120px;
+	background-color: #fff2;
+	border-radius: var(--border-radius-small);
+	object-fit: contain;
+	padding: var(--mini-gap);
+	filter: saturate(0);
+}
+
+.left h4 {
+	font-size: var(--text-size-medium);
+}
+
+.right {
+	height: 120px;
+	min-width: 140px;
+	width: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right > p {
+	font-size: var(--text-size-small);
+}
+
+.right > .stack {
+	font-size: var(--text-size-tiny);
+}
+
+.right > a {
+	color: var(--primary);
+}
+
+.right > a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper {
+		opacity: 1;
+	}
+}

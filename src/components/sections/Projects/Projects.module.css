@@ -1,0 +1,11 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+.item_list {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}

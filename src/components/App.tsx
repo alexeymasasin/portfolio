@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Header from './header/Header';
 import About from './sections/About/About';
 import Intro from './sections/Intro/Intro';
+import Projects from './sections/Projects/Projects';
 import GradientBackground from './ui/GradientBackground/GradientBackground';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 				<Routes location={displayLocation}>
 					<Route path="/portfolio" element={<Intro />} />
 					<Route path="/portfolio/about" element={<About />} />
+					<Route path="/portfolio/projects" element={<Projects />} />
 				</Routes>
 			</div>
 			<GradientBackground />

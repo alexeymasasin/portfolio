@@ -1,0 +1,42 @@
+[
+	{
+		"title": "ThreadCab",
+		"desc": "THREADCAB_DESC",
+		"stack": "React, Express.js, TypeScript, JavaScript, Prisma, MongoDB, ...",
+		"imagePath": "",
+		"date": "2024-2025",
+		"type": "PET",
+		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"status": "ONGOING"
+	},
+	{
+		"title": "Todo App",
+		"desc": "TODO_APP_DESC",
+		"stack": "React, JavaScript, Framer-Motion, i18Next, ...",
+		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/todo-app-demo/main/public/hero.png",
+		"date": "2024",
+		"type": "PET",
+		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"status": "FINISHED"
+	},
+	{
+		"title": "Portfolio",
+		"desc": "PORTFOLIO_DESC",
+		"stack": "React, TypeScript, CSS-Modules, i18Next, ...",
+		"imagePath": "https://avatars.githubusercontent.com/u/101698179?v=4",
+		"date": "2024 - 2025",
+		"type": "PET",
+		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"status": "ONGOING"
+	},
+	{
+		"title": "World News",
+		"desc": "WORLD_NEWS_DESC",
+		"stack": "React, JavaScript, TypeScript, HTML, CSS, ...",
+		"imagePath": "",
+		"date": "2024",
+		"type": "PET",
+		"linkHref": "https://github.com/alexeymasasin/todo-app-demo",
+		"status": "DROPPED"
+	}
+]

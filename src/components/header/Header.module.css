@@ -28,7 +28,6 @@
 	transition: all 0.25s;
 	object-fit: cover;
 	background-color: #000;
-	filter: invert(1);
 	padding: 4px;
 }
 
@@ -43,7 +42,6 @@
 }
 
 .logo:hover .item > img {
-	filter: none;
 	box-shadow: 0px 0px 40px -3px var(--primary);
 	background-color: var(--background);
 	border-color: var(--primary);
