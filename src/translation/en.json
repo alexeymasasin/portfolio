@@ -63,5 +63,6 @@
 	"PORTFOLIO_DESC": "The site you are currently on.",
 	"WORLD_NEWS_DESC": "News application, works by fetching public API",
 	"RCW_120_DESC": "My color schemes for various programs and tools",
-	"RESUME_DESC": "You can view my resume by following the link below."
+	"RESUME_DESC": "You can view my resume by following the link below.",
+	"PAGE_IN_PROGRESS": "This page is currently in development stage"
 }

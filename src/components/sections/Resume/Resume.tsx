@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
+import { PiReadCvLogoFill } from 'react-icons/pi';
 import useDocumentTitle from '../../../hooks/useDocumentTitle';
 import styles from './Resume.module.css';
-import resume from '/img/resume/resume.png';
 
 export default function Resume() {
 	const { t } = useTranslation();
@@ -16,7 +16,7 @@ export default function Resume() {
 				target="_blank"
 				className={styles.img_wrapper}
 			>
-				<img src={resume} alt="Resume" />
+				<PiReadCvLogoFill />
 			</a>
 		</div>
 	);

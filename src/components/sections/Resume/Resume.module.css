@@ -4,24 +4,40 @@
 	gap: var(--gap);
 }
 
-.wrapper img {
+.wrapper a {
+	width: 330px;
+	height: 470px;
+	background-color: var(--white);
 	overflow: hidden;
 	transition: all 0.25s;
 	position: relative;
 	top: 5px;
 	box-shadow: none;
 	filter: grayscale(1);
-	animation: resume 3s infinite linear;
+	animation: resume 4s infinite ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--border-radius-mid);
 }
 
-.wrapper img:hover {
-	transform: scale(1.01);
+.wrapper a > svg {
+	transition: 0.25s all;
+}
+
+.wrapper a:hover {
 	filter: none;
 }
 
-.wrapper a,
-.wrapper img {
-	width: 330px;
+.wrapper a > svg {
+	fill: var(--background);
+	font-size: 130px;
+}
+
+.wrapper a:hover > svg {
+	fill: var(--primary);
+	scale: 1.2;
+	transform: rotate(-10deg);
 }
 
 @keyframes resume {
@@ -33,5 +49,11 @@
 	}
 	100% {
 		box-shadow: 0 0 80px -10px var(--primary);
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper a {
+		width: 100%;
 	}
 }
