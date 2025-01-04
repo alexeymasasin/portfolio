@@ -17,7 +17,7 @@ export default function Introducing() {
 			<p>{t('BIO_EXTRA')}</p>
 			<ChapterTitle title={t('EDUCATION')} />
 			<EducationTable />
-			<ChapterTitle title={t('EDUCATION_EXTRA')} />
+			{/* <ChapterTitle title={t('EDUCATION_EXTRA')} /> */}
 			<ChapterTitle title={t('CONTACTS')} />
 			<Button title={t('CLICK_TO_SHOW_CONTACTS')} style="wide" weight="bold">
 				{t('CLICK_TO_SHOW_CONTACTS')}
