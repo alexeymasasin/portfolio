@@ -301,18 +301,18 @@ body.swal2-shown > [aria-hidden='true'] {
 
 .fadeIn {
 	/* animation: 0.35s fadeIn forwards; */
-	animation: 0.75s fadeIn forwards;
+	animation: 0.5s fadeIn forwards;
 }
 
 .fadeOut {
 	/* animation: 0.35s fadeOut forwards; */
-	animation: 0.75s fadeOut forwards;
+	animation: 0.5s fadeOut forwards;
 }
 
 @keyframes fadeIn {
 	from {
 		opacity: 0;
-		transform: translate(-20px, 0);
+		transform: translate(0, 20px);
 	}
 	to {
 		opacity: 1;
@@ -326,7 +326,7 @@ body.swal2-shown > [aria-hidden='true'] {
 		transform: translate(0px, 0px);
 	}
 	to {
-		transform: translate(-20px, 0);
+		transform: translate(0, -20px);
 		opacity: 0;
 	}
 }

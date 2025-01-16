@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Header from './header/Header';
+import ScrollToTop from './helpers/ScrollToTop';
 import About from './sections/About/About';
 import Intro from './sections/Intro/Intro';
 import Projects from './sections/Projects/Projects';
@@ -30,6 +31,7 @@ function App() {
 				}}
 			>
 				<Header />
+				<ScrollToTop />
 				<Routes location={displayLocation}>
 					<Route path="/portfolio" element={<Intro />} />
 					<Route path="/portfolio/about" element={<About />} />
