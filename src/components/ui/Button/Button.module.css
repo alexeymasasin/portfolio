@@ -80,5 +80,6 @@
 
 	.wrapper {
 		font-size: var(--text-size-tiny);
+		line-height: 1;
 	}
 }

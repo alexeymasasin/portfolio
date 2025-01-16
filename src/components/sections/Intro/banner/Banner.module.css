@@ -1,121 +1,122 @@
 .wrapper {
-  width: 100%;
-  padding: 30px 40px 40px;
-  border-radius: var(--border-radius-big);
-  background-color: var(--primary);
-  box-shadow: 0 0 200px -120px var(--primary);
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
-  overflow: hidden;
-  position: relative;
-  z-index: 50;
+	width: 100%;
+	padding: 30px 40px 40px;
+	border-radius: var(--border-radius-big);
+	background-color: var(--primary);
+	box-shadow: 0 0 200px -120px var(--primary);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	overflow: hidden;
+	position: relative;
+	z-index: 50;
 }
 
 .wrapper > h2 {
-  font-size: var(--text-size-large);
-  line-height: 70px;
-  white-space: nowrap;
-  transition: all 0.25s;
+	font-size: var(--text-size-large);
+	line-height: 70px;
+	white-space: nowrap;
+	transition: all 0.25s;
 }
 
 .profession {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .professtion::before {
-  content: "{";
-  font-weight: inherit;
-  animation: left-bracket 3s infinite;
+	content: '{';
+	font-weight: inherit;
+	animation: left-bracket 3s infinite;
 }
 
 .professtion::after {
-  content: "}";
-  font-weight: inherit;
-  animation: right-bracket 3s infinite;
+	content: '}';
+	font-weight: inherit;
+	animation: right-bracket 3s infinite;
 }
 
 .professtion::after,
 .professtion::before {
-  margin: 0 2px;
-  position: relative;
-  display: inline-block;
+	margin: 0 2px;
+	position: relative;
+	display: inline-block;
 }
 
 @keyframes left-bracket {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(-2px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(-2px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
 }
 
 @keyframes right-bracket {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(2px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(2px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
 }
 
 .desc {
-  font-size: var(--text-size-medium);
-  margin-bottom: 10px;
+	font-size: var(--text-size-medium);
+	margin-bottom: 10px;
 }
 
 .actions {
-  display: flex;
-  gap: var(--gap);
-  align-items: center;
+	display: flex;
+	gap: var(--gap);
+	align-items: center;
 }
 
 .actions > p {
-  opacity: 0.6;
+	opacity: 0.6;
+	line-height: 1.5;
 }
 
 .icon {
-  font-size: 30px;
-  margin-left: 3px;
-  fill: var(--background);
+	font-size: 30px;
+	margin-left: 3px;
+	fill: var(--background);
 }
 
 @media screen and (max-width: 1076px) {
-  .wrapper > h2 {
-    font-size: var(--text-size-big);
-    line-height: 100%;
-  }
+	.wrapper > h2 {
+		font-size: var(--text-size-big);
+		line-height: 100%;
+	}
 
-  .wrapper > p {
-    font-size: var(--text-size-small);
-  }
+	.wrapper > p {
+		font-size: var(--text-size-small);
+	}
 
-  .actions > p {
-    font-size: var(--text-size-tiny);
-  }
+	.actions > p {
+		font-size: var(--text-size-tiny);
+	}
 }
 
 @media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 636px) {
-  .wrapper > h2 {
-    font-size: 22px;
-  }
+	.wrapper > h2 {
+		font-size: 22px;
+	}
 
-  .wrapper {
-    padding: 20px;
-  }
+	.wrapper {
+		padding: 20px;
+	}
 }
 
 @media screen and (max-width: 636px) {
-  .wrapper > h2 {
-  }
+	.wrapper > h2 {
+	}
 }
