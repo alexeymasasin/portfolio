@@ -93,6 +93,10 @@
 	gap: var(--gap);
 }
 
+.nav_item {
+	transition: all 0.05s;
+}
+
 .nav_item > * {
 	transition: all 0.2s;
 	cursor: pointer;
@@ -159,7 +163,8 @@
 
 @media (max-width: 768px) {
 	.nav_item {
-		display: none;
+		/* display: none; */
+		font-size: 0;
 	}
 
 	.item > h2 {

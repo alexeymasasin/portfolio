@@ -230,6 +230,7 @@ html.touch *:hover {
 	margin: 20px auto;
 	padding: 0 var(--component-gap) var(--component-gap);
 	max-width: 1200px;
+	transition: all 0.25s;
 }
 
 .title {
@@ -343,6 +344,8 @@ body.swal2-shown > [aria-hidden='true'] {
 		--text-size-medium: 24px;
 		--text-size-big: 36px;
 		--text-size-large: 56px;
+
+		--border-radius-big: var(--border-radius-small);
 
 		--mini-gap: 4px;
 		--medium-gap: 8px;
