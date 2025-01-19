@@ -213,6 +213,10 @@ body {
 	padding: 1px;
 }
 
+p {
+	line-height: 1.05;
+}
+
 img {
 	user-drag: none;
 	-webkit-user-drag: none;

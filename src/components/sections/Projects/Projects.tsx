@@ -22,7 +22,8 @@ export default function Projects() {
 							imagePath={item.imagePath}
 							date={item.date}
 							type={item.type}
-							linkHref={item.linkHref}
+							deployLink={item.deployLink}
+							repositoryLink={item.repositoryLink}
 							status={item.status}
 						/>
 					);

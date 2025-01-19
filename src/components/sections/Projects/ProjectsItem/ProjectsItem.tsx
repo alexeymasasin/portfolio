@@ -6,7 +6,8 @@ type ProjectsItemProps = {
 	title: string;
 	desc: string;
 	imagePath?: string;
-	linkHref: string;
+	deployLink?: string;
+	repositoryLink?: string;
 	date: string;
 	stack: string;
 	type: string;
@@ -17,7 +18,8 @@ export default function ProjectsItem({
 	title,
 	desc,
 	imagePath,
-	linkHref,
+	deployLink,
+	repositoryLink,
 	date,
 	stack,
 	type,
@@ -38,19 +40,28 @@ export default function ProjectsItem({
 				<div className={styles.main}>
 					<h4>{title}</h4>
 					<p>{t(`${desc}`)}</p>
+					<p className={styles.stack}>
+						{t('STACK')}
+						{': '}
+						{stack}
+					</p>
 				</div>
 			</div>
 			<div className={styles.right}>
-				<p className={styles.stack}>
-					{t('STACK')}
-					{': '}
-					{stack}
-				</p>
 				<p>{`${date}, ${t(`${status}`)}`}</p>
 				<p>{t(`${type}`)}</p>
-				<a href={linkHref} target="_blank">
-					{t('PROJECT_LINK_TITLE')}
-				</a>
+				{deployLink ? (
+					<a href={deployLink} target="_blank">
+						{t('DEPLOY_LINK_TITLE')}
+					</a>
+				) : null}
+				{repositoryLink ? (
+					<a href={repositoryLink} target="_blank">
+						{t('REPOSITORY_LINK_TITLE')}
+					</a>
+				) : (
+					'a'
+				)}
 			</div>
 		</div>
 	);

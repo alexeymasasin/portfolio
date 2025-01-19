@@ -6,8 +6,8 @@
 		"imagePath": "",
 		"date": "2024-2025",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/threadcab-express-api/",
-		"status": "ONGOING"
+		"status": "ONGOING",
+		"repositoryLink": "https://github.com/alexeymasasin/threadcab-express-api"
 	},
 	{
 		"title": "Todo App",
@@ -16,8 +16,9 @@
 		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/todo-app-demo/refs/heads/main/public/android-chrome-192x192.png",
 		"date": "2024",
 		"type": "PET",
-		"linkHref": "https://alexeymasasin.github.io/todo-app-demo/",
-		"status": "FINISHED"
+		"deployLink": "https://alexeymasasin.github.io/todo-app-demo/",
+		"status": "FINISHED",
+		"repositoryLink": "https://github.com/alexeymasasin/todo-app-demo"
 	},
 	{
 		"title": "Portfolio",
@@ -26,8 +27,9 @@
 		"imagePath": "https://avatars.githubusercontent.com/u/101698179?v=4",
 		"date": "2024 - 2025",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/portfolio/",
-		"status": "ONGOING"
+		"deployLink": "https://alexeymasasin.github.io/portfolio",
+		"status": "ONGOING",
+		"repositoryLink": "https://github.com/alexeymasasin/portfolio"
 	},
 	{
 		"title": "RCW-120",
@@ -36,8 +38,8 @@
 		"imagePath": "https://raw.githubusercontent.com/alexeymasasin/RCW-120/refs/heads/main/images/vscode/screenshots/RCW-120-V1/main.png",
 		"date": "2024 - 2025",
 		"type": "OTHER",
-		"linkHref": "https://github.com/alexeymasasin/RCW-120",
-		"status": "ONGOING"
+		"status": "ONGOING",
+		"repositoryLink": "https://github.com/alexeymasasin/RCW-120"
 	},
 	{
 		"title": "World News",
@@ -46,7 +48,8 @@
 		"imagePath": "",
 		"date": "2024",
 		"type": "PET",
-		"linkHref": "https://github.com/alexeymasasin/world-news",
-		"status": "DROPPED"
+		"deployLink": "https://am-world-news.vercel.app/",
+		"status": "DROPPED",
+		"repositoryLink": "https://github.com/alexeymasasin/world-news"
 	}
 ]
